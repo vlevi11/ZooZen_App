@@ -23,8 +23,13 @@ namespace ZooZen_App
         public Form1()
         {
             InitializeComponent();
-            
-            
+            //DESIGN
+            this.BackColor = ColorTranslator.FromHtml("#ffebbd");
+            this.button1.BackColor = ColorTranslator.FromHtml("#1e4b57");
+            this.button2.BackColor = ColorTranslator.FromHtml("#1e4b57");
+            this.dataGridView1.BackgroundColor = ColorTranslator.FromHtml("#f4A905");
+
+
         }
 
         private void button1_Click(object sender, EventArgs e)
