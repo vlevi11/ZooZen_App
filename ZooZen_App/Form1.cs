@@ -65,7 +65,6 @@ namespace ZooZen_App
                 }
 
                 dataGridView1.DataSource = dt;
-                label1.Text = String.Format("Selected products : {0}", dt.Rows);
             }
             catch (Exception e)
             {
@@ -99,7 +98,7 @@ namespace ZooZen_App
             }
             catch (Exception e)
             {
-                label1.Text = e.Message;
+                MessageBox.Show(e.Message);
             }
         }
 
